@@ -3,7 +3,7 @@ import { StreamChat } from 'stream-chat';
 export async function POST(request: Request) {
   const serverClient = StreamChat.getInstance(
     'jw6cdmggfgab',
-    '6hnnmjkcy5vdvn8q5zdqfvx9hu5uyjjbxau4k3222kvpaweuvttc6vguaqkq4fj9'
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoianc2Y2RtZ2dmZ2FiIn0.C8Ta9u_czT7CsZnv0RY6bMS3MFomLwVr2QxTbY7_e_w'
   );
   const body = await request.json();
   console.log('[/api/token] Body:', body);
