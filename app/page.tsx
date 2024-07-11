@@ -7,8 +7,8 @@ import { useClerk } from '@clerk/nextjs';
 import { useCallback, useEffect, useState } from 'react';
 import MyChat from '@/components/MyChat';
 
-// const userId = '7cd445eb-9af2-4505-80a9-aa8543c3343f';
-// const userName = 'Harry Potter';
+const userId = '7cd445eb-9af2-4505-80a9-aa8543c3343f';
+const userName = 'AFP-BOT';
 const apiKey = 'jw6cdmggfgab';
 const userToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoianc2Y2RtZ2dmZ2FiIn0.C8Ta9u_czT7CsZnv0RY6bMS3MFomLwVr2QxTbY7_e_w';
 
